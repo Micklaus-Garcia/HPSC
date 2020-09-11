@@ -1,0 +1,4 @@
+set term png
+set output 'plot.png'
+splot 'Qval_0_0.plt' w l , 'Qval_1_0.plt' w l , 'Qval_2_0.plt' w l , 'Qval_3_0.plt' w l
+
